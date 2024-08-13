@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografia e Descriptografia de Texto</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Criptografia e Descriptografia de Texto</h1>
+        <textarea id="inputText" placeholder="Insira o texto aqui..."></textarea>
+        <div class="buttons">
+            <button onclick="encryptText()">Criptografar</button>
+            <button onclick="decryptText()">Descriptografar</button>
+        </div>
+        <textarea id="outputText" placeholder="Texto resultante..." readonly></textarea>
+        <button onclick="copyToClipboard()">Copiar para área de transferência</button>
+    </div>
+    <footer>
+        <p>Desenvolvido por Ribamar Filho</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
